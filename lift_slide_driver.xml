@@ -1,0 +1,8 @@
+<library path="lift_slide_driver">
+  <class
+    name="lift_slide_driver/LiftSlideHardwareInterface"
+    type="lift_slide_driver::LiftSlideHardwareInterface"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>Lift slide ros2_control hardware interface based on SocketCAN/CANopen.</description>
+  </class>
+</library>

@@ -1,0 +1,26 @@
+<library path="lift_slide_driver">
+  <class
+    name="lift_slide_driver/ParamForwardingVelocityController"
+    type="lift_slide_driver::ParamForwardingVelocityController"
+    base_class_type="controller_interface::ControllerInterface">
+    <description>Velocity controller with controller_manager parameter forwarding.</description>
+  </class>
+  <class
+    name="lift_slide_driver/ParamForwardingPositionController"
+    type="lift_slide_driver::ParamForwardingPositionController"
+    base_class_type="controller_interface::ControllerInterface">
+    <description>Position controller with controller_manager parameter forwarding.</description>
+  </class>
+  <class
+    name="lift_slide_driver/LiftSlideStateController"
+    type="lift_slide_driver::LiftSlideStateController"
+    base_class_type="controller_interface::ControllerInterface">
+    <description>State controller that bridges hardware state interfaces to ROS2 topics/services.</description>
+  </class>
+  <class
+    name="lift_slide_driver/LiftSlideManualPositionController"
+    type="lift_slide_driver::LiftSlideManualPositionController"
+    base_class_type="controller_interface::ControllerInterface">
+    <description>Manual position controller for step and long-press jog commands.</description>
+  </class>
+</library>

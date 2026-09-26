@@ -1,0 +1,17 @@
+# Writable package-owned lift calibration record.
+# A fresh file is intentionally uncalibrated; it must not authorize return-home.
+schema_version: 3
+calibrated: false
+zero_source: none
+raw_zero_position: 0
+position_offset_m: 0.0
+can_interface: can3
+node_id: 16
+verified_by_drive: false
+motion_ready: false
+reference_valid: false
+encoder_reference_lost: false
+home_di_channel: 4
+lower_di_channel: 5
+upper_di_channel: 6
+updated_at: ""
